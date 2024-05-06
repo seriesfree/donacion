@@ -1,0 +1,64 @@
+/* Estilos CSS para la página de donaciones */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.container {
+    max-width: 800px;
+    margin: 330px auto;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.7); /* Cambia el último valor para ajustar la opacidad */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    text-align: center;
+    color: #000000;
+}
+p {
+    color: #000000;
+    line-height: 1.6;
+    font-weight: bold; /* Agregar negrita */
+}
+.donate-button {
+    display: block;
+    width: 200px;
+    margin: 20px auto;
+    padding: 10px 20px;
+    text-align: center;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.donate-button:hover {
+    background-color: #0056b3;
+}
+@media only screen and (max-width: 600px) {
+    body {
+        background-image: url('https://wallpapersmug.com/download/1080x1920/3a8464/rick-and-morty-season-4-2019.jpg');
+        background-attachment: fixed;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .donate-button {
+        width: 150px; /* Ajusta el ancho del botón para dispositivos móviles */
+    }
+}
+@media only screen and (max-width: 600px) {
+    .container {
+        margin: 290px 20px; /* Ajusta el margen superior y lateral para dispositivos móviles */
+        padding: 20px; /* Ajusta el relleno para dispositivos móviles */
+    }
+}
+p {
+    color: #000000;
+    line-height: 1.6;
+    font-weight: bold;
+    text-align: center; /* Alinea el texto al centro en dispositivos móviles */
+}
